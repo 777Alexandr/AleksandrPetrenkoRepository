@@ -13,7 +13,6 @@ public class Cast {
         float f = 10.1234567f;
         double d = 11.1234567890123456d;
 
-
         int castByteToInt = b;
         System.out.println(castByteToInt);
 

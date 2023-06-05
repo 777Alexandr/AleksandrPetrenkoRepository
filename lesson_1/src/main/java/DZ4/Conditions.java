@@ -103,10 +103,10 @@ public class Conditions {
 
         Scanner scann = new Scanner(System.in);
         System.out.println("Ввести число :");
-        int num = scan.nextInt();
-        if (num > 0){
+        int numb = scan.nextInt();
+        if (numb > 0){
             System.out.println("число положительное");
-        } else if (num > 0){
+        } else if (numb < 0){
             System.out.println("число отрицательное");
         } else {
             System.out.println("Введённое число = 0");
@@ -150,20 +150,15 @@ public class Conditions {
             }
         }
 
-        System.out.println("---------------------------");
 
 
-
-
-
-
-
-
-
-
-
-
-
+        s.close();
+        sc.close();
+        sca.close();
+        scan.close();
+        scann.close();
+        scanne.close();
+        scanner.close();
 
 
 
